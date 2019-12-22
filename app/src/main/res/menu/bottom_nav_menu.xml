@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tyLeChapNhan"
+        android:icon="@drawable/ic_tilechapnhan_24dp"
+        android:title="@string/title_TyLeChapNhan"/>
+    <item
+        android:id="@+id/navigation_danhGia"
+        android:icon="@drawable/ic_danhgia_24dp"
+        android:title="@string/title_DanhGia" />
+
+    <item
+        android:id="@+id/navigation_tyLeHuy"
+        android:icon="@drawable/ic_tilehuy_24dp"
+        android:title="@string/title_TyLeHuy" />
+
+</menu>

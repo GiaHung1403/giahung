@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.appdrive.ui.trangChu.TrangChuFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_LichSu"
+        android:name="com.example.appdrive.ui.lichSu.GalleryFragment"
+        android:label="@string/menu_lichSu"
+        tools:layout="@layout/fragment_lich_su" />
+
+    <fragment
+        android:id="@+id/nav_ViTaiXe"
+        android:name="com.example.appdrive.ui.viTaiXe.SlideshowFragment"
+        android:label="@string/menu_ViTaiXe"
+        tools:layout="@layout/fragment_vi_tai_xe" />
+
+    <fragment
+        android:id="@+id/nav_KiemTra"
+        android:name="com.example.appdrive.ui.kiemTra.ShareFragment"
+        android:label="@string/menu_KiemTra"
+        tools:layout="@layout/fragment_kiem_tra" />
+
+    <fragment
+        android:id="@+id/nav_HoTro"
+        android:name="com.example.appdrive.ui.hoTro.SendFragment"
+        android:label="@string/menu_HoTro"
+        tools:layout="@layout/fragment_ho_tro" />
+
+    <fragment
+        android:id="@+id/nav_CaiDat"
+        android:name="com.example.appdrive.ui.caiDat.HomeFragment"
+        android:label="@string/menu_CaiDat"
+        tools:layout="@layout/fragment_cai_dat" />
+</navigation>

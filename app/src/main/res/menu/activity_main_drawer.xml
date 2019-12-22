@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_lichsu_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_LichSu"
+            android:icon="@drawable/ic_lichsu_24dp"
+            android:title="@string/menu_lichSu" />
+        <item
+            android:id="@+id/nav_ViTaiXe"
+            android:icon="@drawable/ic_vi_tai_xe_24dp"
+            android:title="@string/menu_ViTaiXe" />
+        <item
+            android:id="@+id/nav_KiemTra"
+            android:icon="@drawable/ic_kiem_tra_24dp"
+            android:title="@string/menu_KiemTra"/>
+        <item
+            android:id="@+id/nav_HoTro"
+            android:icon="@drawable/ic_ho_tro_24dp"
+            android:title="@string/menu_HoTro"/>
+        <item
+            android:id="@+id/nav_CaiDat"
+            android:icon="@drawable/ic_cai_dat_24dp"
+            android:title="@string/menu_CaiDat" />
+    </group>
+</menu>
